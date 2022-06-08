@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineLink } from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const ProjectListingCard = ({ projectInfo }) => {
@@ -20,7 +20,7 @@ const ProjectListingCard = ({ projectInfo }) => {
         <div className="flex items-center gap-2">
           <p className="text-3xl font-semibold text-heading">{projectName}</p>
           <a href={gitHubLink} target="_blank" rel="noreferrer">
-            <AiFillGithub className="text-2xl" />
+            <AiOutlineLink className="text-2xl" />
           </a>
         </div>
         <p className="text-button text-xs font-bold border-2 border-button p-2 rounded-full">

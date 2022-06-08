@@ -7,14 +7,9 @@ export default function ErrorPage() {
     <div>
       <nav className="flex justify-between px-8 pt-6 items-center">
         <h1 className="text-2xl font-bold">
-          Pro<span className="text-button">Stack</span>
+          Freelancer<span className="text-button">Marketplace</span>
         </h1>
-        <a
-          href="https://github.com/parthpandyappp/Prostack/tree/main"
-          className="font-medium border-button border-b-4 hover:border-b-blue-500"
-        >
-          GitHub
-        </a>
+        
       </nav>
       <main>
         <img

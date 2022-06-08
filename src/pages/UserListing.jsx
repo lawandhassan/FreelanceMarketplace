@@ -16,7 +16,7 @@ const UserListing = () => {
       <main className="w-11/12 m-auto">
         <ProjectListingSidebar />
         <h1 className="text-4xl text-heading font-bold text-center">
-          Find awesome teammates!
+          Find teammates!
         </h1>
         <div className="flex flex-wrap justify-center gap-4 my-6">
           {collabUserList.length > 0 ? (
