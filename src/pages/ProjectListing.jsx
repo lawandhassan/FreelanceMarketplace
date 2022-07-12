@@ -38,9 +38,7 @@ const ProjectListing = () => {
       <ProjectListingNavbar />
       <main className="w-11/12 m-auto">
         <ProjectListingSidebar />
-        <h1 className="text-4xl text-heading font-bold text-center">
-          Find exciting projects!
-        </h1>
+        
         <CategoryList
           activeCategory={activeCategory}
           setActiveCategory={setActiveCategory}
